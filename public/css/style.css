@@ -44,7 +44,7 @@
     color: #3c136c;    
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     #off{
         display: none;
     }
