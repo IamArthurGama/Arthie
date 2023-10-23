@@ -25,11 +25,23 @@
 }
 
 .estilos{
-    width:250px;
-    height: 250px;
+    width:150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
     margin: 3% 3%;
+}
+
+.title{
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+}
+
+#ig{
+    width: 350px;
+    height: 100px;
+    object-fit: cover;
 }
 
 
@@ -63,5 +75,19 @@
 
     .on{
         display: flex;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title{
+        font-weight: 300;
+        font-size: 30px;
+        text-align: center; 
+    }
+
+    #ig{
+        width: 200px;
+        height: 100px;
+        object-fit: cover;
     }
 }
