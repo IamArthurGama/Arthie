@@ -45,6 +45,12 @@
     object-fit: cover;
 }
 
+#ttk{
+    width: 300px;
+    
+    object-fit: cover; 
+}
+
 
 
 #C1{
@@ -90,6 +96,10 @@
         width: 200px;
         height: 100px;
         object-fit: cover;
+    }
+
+    #ttk{
+        width: 200px;
     }
 
     .estilos{
